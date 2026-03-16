@@ -19,9 +19,8 @@
         "json"
     ],
     "implementationGuide": [
-        "http://hl7.org/fhir/us/davinci-deqm/ImplementationGuide/hl7.fhir.us.davinci-deqm",
-        "http://hl7.org/fhir/us/qicore/ImplementationGuide/hl7.fhir.us.qicore",
-        "http://hl7.org/fhir/us/cqfmeasures/ImplementationGuide/hl7.fhir.us.cqfmeasures"
+        "http://hl7.org/fhir/uv/deqm/ImplementationGuide/hl7.fhir.uv.deqm",
+        "http://hl7.org/fhir/uv/cqm/ImplementationGuide/hl7.fhir.uv.cqm"
     ],
     "jurisdiction": [
         {
@@ -149,7 +148,7 @@
                                     "valueCode": "SHOULD"
                                 }
                             ],
-                            "definition": "http://hl7.org/fhir/us/davinci-deqm/OperationDefinition/bulk-submit-data",
+                            "definition": "http://hl7.org/fhir/uv/deqm/OperationDefinition/bulk-submit-data",
                             "documentation": "It is the responsibility of the Producer to discover whether snapshot or incremental data exchange is supported by the inspection of the Consumer Server CapabilityStatement.",
                             "name": "bulk-submit-data"
                         }
@@ -179,7 +178,7 @@
                         }
                     ],
                     "supportedProfile": [
-                        "http://hl7.org/fhir/us/davinci-deqm/StructureDefinition/datax-measurereport-deqm"
+                        "http://hl7.org/fhir/uv/deqm/StructureDefinition/deqm-dataexchangemeasurereport"
                     ],
                     "type": "MeasureReport"
                 }
@@ -191,7 +190,7 @@
     ],
     "status": "active",
     "title": "Producer Client CapabilityStatement",
-    "url": "http://hl7.org/fhir/us/davinci-deqm/CapabilityStatement/producer-client",
+    "url": "http://hl7.org/fhir/uv/deqm/CapabilityStatement/producer-client",
     "version": "3.0.0",
     "resourceType": "CapabilityStatement"
 }

@@ -19,9 +19,8 @@
         "json"
     ],
     "implementationGuide": [
-        "http://hl7.org/fhir/us/davinci-deqm/ImplementationGuide/hl7.fhir.us.davinci-deqm",
-        "http://hl7.org/fhir/us/qicore/ImplementationGuide/hl7.fhir.us.qicore",
-        "http://hl7.org/fhir/us/cqfmeasures/ImplementationGuide/hl7.fhir.us.cqfmeasures"
+        "http://hl7.org/fhir/uv/deqm/ImplementationGuide/hl7.fhir.uv.deqm",
+        "http://hl7.org/fhir/uv/cqm/ImplementationGuide/hl7.fhir.uv.cqm"
     ],
     "jurisdiction": [
         {
@@ -124,7 +123,7 @@
                             "valueCode": "SHALL"
                         }
                     ],
-                    "documentation": "The DaVinci DEQM Consumer Client **SHOULD** be capable of supporting the DEQM MeasureReport Profile and all the DEQM, CQFM and QI Core Profiles they reference.",
+                    "documentation": "The DaVinci DEQM Consumer Client **SHOULD** be capable of supporting the DEQM MeasureReport Profile and all the DEQM, CQM and QI Core Profiles they reference.",
                     "interaction": [
                         {
                             "extension": [
@@ -137,7 +136,7 @@
                         }
                     ],
                     "supportedProfile": [
-                        "http://hl7.org/fhir/us/davinci-deqm/StructureDefinition/datax-measurereport-deqm"
+                        "http://hl7.org/fhir/uv/deqm/StructureDefinition/deqm-dataexchangemeasurereport"
                     ],
                     "type": "MeasureReport"
                 }
@@ -149,7 +148,7 @@
     ],
     "status": "active",
     "title": "Consumer Client CapabilityStatement",
-    "url": "http://hl7.org/fhir/us/davinci-deqm/CapabilityStatement/consumer-client",
+    "url": "http://hl7.org/fhir/uv/deqm/CapabilityStatement/consumer-client",
     "version": "3.0.0",
     "resourceType": "CapabilityStatement"
 }
