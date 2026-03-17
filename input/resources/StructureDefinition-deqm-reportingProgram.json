@@ -9,6 +9,17 @@
   "date": "2022-11-21",
   "publisher": "Da Vinci Project",
   "description": "Extension that supports the reporting program as a reference to the CRMI Manifest Library, as well as an identifier of the reporting program, for which measures are being evaluated",
+   "jurisdiction": [
+        {
+            "coding": [
+                {
+                    "system": "http://unstats.un.org/unsd/methods/m49/m49.htm",
+                    "code": "001",
+                    "display": "World"
+                }
+            ]
+        }
+    ],
   "fhirVersion": "4.0.1",
   "kind": "complex-type",
   "abstract": false,

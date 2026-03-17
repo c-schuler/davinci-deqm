@@ -23,6 +23,13 @@
       <display value="United States of America"/>
     </coding>
   </jurisdiction>
+    <jurisdiction>
+    <coding>
+      <system value="http://unstats.un.org/unsd/methods/m49/m49.htm" />
+      <code value="001" />
+      <display value="World" />
+    </coding>
+  </jurisdiction>
   <purpose value="To provide the capability to support identifying the location(s) from which reported data was gathered."/>
   <fhirVersion value="4.0.1"/>
   <kind value="complex-type"/>

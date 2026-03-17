@@ -284,7 +284,7 @@
                 }
               ]
             },
-            "system": "http://hospital.davinci.org",
+            "system": "http://example.org",
             "value": "67890"
           }
         ],

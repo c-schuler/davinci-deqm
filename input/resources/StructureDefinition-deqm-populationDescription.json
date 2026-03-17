@@ -25,6 +25,17 @@
     }
   ],
   "description": "DEPRECATED in favor of the measurereport-populationDescription extension: The human readable description of this population criteria.",
+   "jurisdiction": [
+        {
+            "coding": [
+                {
+                    "system": "http://unstats.un.org/unsd/methods/m49/m49.htm",
+                    "code": "001",
+                    "display": "World"
+                }
+            ]
+        }
+    ],
   "fhirVersion": "4.0.1",
   "kind": "complex-type",
   "abstract": false,
@@ -35,11 +46,11 @@
     },
      {
       "type": "element",
-      "expression": "MeasureReport.population"
+      "expression": "MeasureReport.group.population"
     },
      {
       "type": "element",
-      "expression": "MeasureReport.stratifier"
+      "expression": "MeasureReport.group.stratifier"
     }
   ],
   "type": "Extension",

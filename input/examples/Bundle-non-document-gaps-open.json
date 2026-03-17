@@ -277,7 +277,7 @@
                 }
               ]
             },
-            "system": "http://hospital.smarthealthit.org",
+            "system": "http://example.org",
             "value": "999996992"
           }
         ],

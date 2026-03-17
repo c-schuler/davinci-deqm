@@ -4,10 +4,21 @@
   "date": "2020-08-15",
   "name": "DEQMUpdateTypeValueSet",
   "id": "deqm-update-type",
+  "url": "http://hl7.org/fhir/uv/deqm/ValueSet/deqm-update-type",
   "title": "DEQM Update Type Value Set",
   "experimental": false,
   "description": "Concepts for how a DEQM Consumer supports data exchange updates. The choices are snapshot or incremental updates",
-  "url": "http://hl7.org/fhir/uv/deqm/ValueSet/deqm-update-type",
+   "jurisdiction": [
+        {
+            "coding": [
+                {
+                    "system": "http://unstats.un.org/unsd/methods/m49/m49.htm",
+                    "code": "001",
+                    "display": "World"
+                }
+            ]
+        }
+    ],
   "compose": {
     "include": [
       {

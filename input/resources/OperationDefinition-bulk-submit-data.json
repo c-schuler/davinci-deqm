@@ -24,6 +24,15 @@
   "date": "2022-11-09T10:53:32-05:00",
   "publisher": "The MITRE Corporation",
   "description": "The bulk-submit-data operation sends a bulk import request based on the data requirements of a FHIR Measure. This operation is modeled off the existing draft of the [Bulk Data Import Ping and Pull Approach](https://github.com/smart-on-fhir/bulk-import/blob/master/import-pnp.md).",
+     "jurisdiction": [{
+            "coding": [{
+                "system": "http://unstats.un.org/unsd/methods/m49/m49.htm",
+                "code": "001",
+                "display": "World"
+              }
+            ]
+          }
+        ],
   "code": "bulk-submit-data",
   "resource": [
     "Measure"

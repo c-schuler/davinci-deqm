@@ -7,6 +7,15 @@
   "status": "active",
   "experimental": false,
   "description": "Reason codes for remark",
+     "jurisdiction": [{
+            "coding": [{
+                "system": "http://unstats.un.org/unsd/methods/m49/m49.htm",
+                "code": "001",
+                "display": "World"
+              }
+            ]
+          }
+        ],
   "caseSensitive": true,
   "valueSet": "http://hl7.org/fhir/uv/deqm/ValueSet/deqm-remark-reason",
   "content": "complete",

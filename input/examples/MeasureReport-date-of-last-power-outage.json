@@ -76,7 +76,8 @@
                         "url": "http://hl7.org/fhir/uv/deqm/StructureDefinition/deqm-alternateScoreType",
                         "valueDateTime": "2019-10-07T14:29:28-07:00"
                     }
-                ]
+                ],
+                "value": 0.1
             }
         }
     ]

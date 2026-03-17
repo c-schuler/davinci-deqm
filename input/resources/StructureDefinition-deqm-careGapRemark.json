@@ -25,6 +25,17 @@
     }
   ],
   "description": "This extension allows a coded and/or narrative remark be added to a Care Gap's Individual Measure Report that adds context from a Provider about the gap.",
+   "jurisdiction": [
+        {
+            "coding": [
+                {
+                    "system": "http://unstats.un.org/unsd/methods/m49/m49.htm",
+                    "code": "001",
+                    "display": "World"
+                }
+            ]
+        }
+    ],
   "fhirVersion": "4.0.1",
   "kind": "complex-type",
   "abstract": false,

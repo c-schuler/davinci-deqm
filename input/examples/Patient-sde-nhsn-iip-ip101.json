@@ -1,10 +1,6 @@
 {
   "resourceType": "Patient",
   "id": "nhsn-iip-ip101",
-  "text": {
-    "status": "generated",
-    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hapiPropertyTable\"><tbody><tr><td>Identifier</td><td>nhsn-iip-ip101</td></tr><tr><td>Date of birth</td><td><span>19 February 1987</span></td></tr></tbody></table></div>"
-  },
   "extension": [
     {
       "url": "http://hl7.org/fhir/us/core/StructureDefinition/us-core-race",

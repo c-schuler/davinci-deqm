@@ -3,10 +3,21 @@
   "status": "active",
   "name": "DEQMCareGapReasons",
   "id": "deqm-care-gap-reason",
-  "title": "DEQM Care Gap Reasons Value Set",
   "url": "http://hl7.org/fhir/uv/deqm/ValueSet/deqm-care-gap-reason",
+   "title": "DEQM Care Gap Reasons Value Set",
   "experimental": false,
   "description": "This is a ValueSet for Care Gap Reasons",
+  "jurisdiction": [
+        {
+            "coding": [
+                {
+                    "system": "http://unstats.un.org/unsd/methods/m49/m49.htm",
+                    "code": "001",
+                    "display": "World"
+                }
+            ]
+        }
+    ],
   "compose": {
     "include": [
       {

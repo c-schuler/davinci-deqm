@@ -22,6 +22,13 @@
         <display value="United States of America"/>
       </coding>
     </jurisdiction>
+     <jurisdiction>
+        <coding>
+            <system value="http://unstats.un.org/unsd/methods/m49/m49.htm"/>
+            <code value="001"/>
+            <display value="World"/>
+        </coding>
+    </jurisdiction>
     <code value="evaluate"/>
     <resource value="Measure"/>
     <system value="false"/>
@@ -133,13 +140,17 @@
         <documentation value="The provider for which the report will be run, provided as an Organization resource.
             This is intended to support the use case in which the organization information
             is not on the server performing the evaluation, for example an [ad-hoc group of
-            practitioners](clinicalreasoning-quality-reporting.html#ad-hoc-organizations) that
+            practitioners](guidance.html#ad-hoc-organizations-for-deqm-operations) that
             are part of a provider group. This parameter is reflected in the reporter element
             of the resulting MeasureReport(s). This parameter cannot be used with the reporter
             parameter."/> 
-        <allowedType value="Practitioner"/>
-        <allowedType value="PractitionerRole"/>
-        <allowedType value="Organization"/>
+        <type value="Reference"/>
+        <targetProfile>
+            <reference value="http://hl7.org/fhir/StructureDefinition/Practitioner"/>
+            <reference value="http://hl7.org/fhir/StructureDefinition/PractitionerRole"/>
+            <reference value="http://hl7.org/fhir/StructureDefinition/Organization"/>
+        </targetProfile>
+        <searchType value="reference"/>
     </parameter>
     <parameter>
         <name value="excludeEvaluatedResources"/>

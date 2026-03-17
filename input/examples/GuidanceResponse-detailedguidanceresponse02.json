@@ -6,7 +6,7 @@
       "http://hl7.org/fhir/uv/deqm/StructureDefinition/deqm-detailedcaregapguidanceresponse"
     ]
   },
-  "moduleUri": "http://someguidelineprovider.org/medication-adherence-guidelines.html",
+  "moduleUri": "http://example.org/medication-adherence-guidelines.html",
   "status": "success",
   "subject": {
     "reference": "Patient/patient02"

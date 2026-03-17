@@ -121,6 +121,15 @@
   "reporter": {
     "reference": "Organization/organization01"
   },
+      "improvementNotation": {
+        "coding": [
+            {
+                "system": "http://terminology.hl7.org/CodeSystem/measure-improvement-notation",
+                "code": "increase",
+                "display": "Increased score indicates improvement"
+            }
+        ]
+    },
   "period": {
     "start": "2025-01-01T00:00:00+00:00",
     "end": "2025-12-31T23:59:59+00:00"
@@ -265,7 +274,10 @@
           },
           "count": 0
         }
-      ]
+      ],
+       "measureScore" : {
+        "value" : 0.6
+      }
     }
   ]
 }

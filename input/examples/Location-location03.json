@@ -10,7 +10,7 @@
     "identifier" : [
         {
           "use" : "temp",
-          "system" : "http://exampleoflocation.com",
+          "system" : "http://example.com",
           "value" : "DaVinciClinic03"
         }
       ],     
