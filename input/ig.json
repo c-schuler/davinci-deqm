@@ -83,7 +83,7 @@
             },
             {
                 "code": "path-expansion-params",
-                "value": "../input/exp-params.json"
+                "value": "../../input/exp-params.json"
             },
             {
                 "code": "logging",
