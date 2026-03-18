@@ -145,15 +145,9 @@
             of the resulting MeasureReport(s). This parameter cannot be used with the reporter
             parameter."/> 
         <type value="Reference"/>
-        <targetProfile>
-            <reference value="http://hl7.org/fhir/StructureDefinition/Practitioner"/>
-        </targetProfile>
-        <targetProfile>
-            <reference value="http://hl7.org/fhir/StructureDefinition/PractitionerRole"/>
-        </targetProfile>
-        <targetProfile>
-            <reference value="http://hl7.org/fhir/StructureDefinition/Organization"/>
-        </targetProfile>
+        <targetProfile value="http://hl7.org/fhir/StructureDefinition/Practitioner"/>
+        <targetProfile value="http://hl7.org/fhir/StructureDefinition/PractitionerRole"/>
+        <targetProfile value="http://hl7.org/fhir/StructureDefinition/Organization"/>
         <searchType value="reference"/>
     </parameter>
     <parameter>

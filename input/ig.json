@@ -1135,6 +1135,14 @@
                 },
                 "description": "Example showing cqf-supportingEvidenceDefinition extension on a MeasureReport."
             },
+             {
+                "exampleBoolean": true,
+                "name": "MeasureReport - Individual Non-CQL FHIRPath Example",
+                "reference": {
+                    "reference": "MeasureReport/indv-non-cql-fhirpath"
+                },
+                "description": "Example of a non-CQL FHIRPath (individual) MeasureReport"
+            },
             {
                 "exampleBoolean": false,
                 "reference": {
