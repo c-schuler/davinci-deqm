@@ -175,4 +175,9 @@ For the Gaps in Care Reporting Scenarios, the actors are Clients and Servers.
 
 ---
 
+<a href="https://www.flaticon.com/free-icons/hospital" title="hospital icons">Hospital icons created by Freepik - Flaticon</a>
+
+
 {% include link-list.md %}
+
+
