@@ -69,7 +69,7 @@ DEQM is a framework specification that supports a broad set of use cases. As suc
 
 ##### Bulk Data
 
-In each of the scenarios described above, the FHIR API is used directly to access the data of interest for the measure being reported. To support large volumes of data, bulk data may be used to transfer the data of interest between the clinical data repository and the measure evaluation service. DEQM utilizes the [Bulk Data Access IG's](https://hl7.org/fhir/uv/bulkdata/) capabilities to improve the performance of bulk data for the quality reporting use case, in particular the ability to organize bulk data feeds by subject. It describes a Bulk Export workflow and is being updated with a Bulk Submit workflow (expected to ballot in September 2026, currently in draft [here](https://hackmd.io/@argonaut/rJoqHZrPle).
+In each of the scenarios described in DEQM, the FHIR API can be used directly to access the data of interest for the measure being reported. However, to support large volumes of data, [Bulk Data](https://hl7.org/fhir/uv/bulkdata/) may be used to transfer the data of interest between the clinical data repository and the reporting system. As of the time of this publication, the Bulk Data specification is being updated to include important capabilities that will improve the performance of bulk data for the quality reporting use case, in particular the ability to organize bulk data feeds by subject. A future version of this publication will provide more detail on how this capability can be used directly once the updated Bulk Data specification is published  (expected to ballot in September 2026, currently in draft [here](https://hackmd.io/@argonaut/rJoqHZrPle).
 
 ##### Aggregated Reporting
 
