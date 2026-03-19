@@ -1,7 +1,7 @@
 {
   "resourceType": "CodeSystem",
   "id": "deqm-remark-reason",
-  "url": "http://hl7.org/fhir/uv/deqm/CodeSystem/remark-reason",
+  "url": "http://hl7.org/fhir/uv/deqm/CodeSystem/deqm-remark-reason",
   "name": "DEQMRemarkReason",
   "title": "DEQM Remark Reason CodeSystem",
   "status": "active",

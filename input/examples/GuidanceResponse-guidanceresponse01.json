@@ -34,7 +34,7 @@
       ]
     }
   ],
-  "moduleUri": "http://someguidelineprovider.org/radiology-appropriateness-guidelines.html",
+  "moduleUri": "http://example.org/radiology-appropriateness-guidelines.html",
   "status": "success",
   "subject": {
     "reference": "Patient/patient01"

@@ -13,22 +13,22 @@ The example presented is based on the QDM version of [CMS108v13](https://ecqi.he
 
 |Resource Type|Profile Name|Link to Profile|
 |---|---|---|
-|Condition|QI Core Condition Problems Health Concerns Profile|[QI Core Condition Problems Health Concerns]|
-|Coverage|QI Core Coverage Profile|[QI Core Coverage]|
-|DeviceRequest|QI Core DeviceRequest Profile|[QI Core DeviceRequest]|
-|DeviceUseStatement|QI Core DeviceUseStatement Profile|[QI Core DeviceUseStatement]|
-|Encounter|QI Core Encounter Profile|[QI Core Encounter]|
-|Library|CRMI Shareable Library|[CRMI Shareable Library]|
-|Location|QI Core Location Profile|[QI Core Location]|
-|Measure|CRMI Shareable Measure Profile|[CRMI Shareable Measure]|
-|MeasureReport|DEQM Individual MeasureReport Profile|[DEQM Individual MeasureReport Profile]|
-|MeasureReport|DEQM Summary MeasureReport Profile|[DEQM Summary MeasureReport Profile]|
-|MedicationRequest|QI Core Medication Not Requested|[QICoreMedicationNotRequested]|
-|Observation|QI Core Observation Profile|[QI Core Observation]|
-|Organization|QI Core Organization Profile|[QI Core Organization]|
-|Patient|QI Core Patient Profile|[QI Core Patient]|
-|Practitioner|QI Core Practitioner Profile|[QI Core Practitioner]|
-|ServiceRequest|QI Core ServiceRequest Profile|[QI Core ServiceRequest]|
+|Condition|QI Core Condition Problems Health Concerns Profile|[QI Core Condition Problems Health Concerns](https://hl7.org/fhir/us/qicore/StructureDefinition-qicore-condition-problems-health-concerns.html)|
+|Coverage|QI Core Coverage Profile|[QI Core Coverage](https://hl7.org/fhir/us/qicore/StructureDefinition-qicore-coverage.html)|
+|DeviceRequest|QI Core DeviceRequest Profile|[QI Core DeviceRequest](https://hl7.org/fhir/us/qicore/StructureDefinition-qicore-devicerequest.html)|
+|DeviceUseStatement|QI Core DeviceUseStatement Profile|[QI Core DeviceUseStatement](https://hl7.org/fhir/us/qicore/StructureDefinition-qicore-deviceusestatement.html)|
+|Encounter|QI Core Encounter Profile|[QI Core Encounter](https://hl7.org/fhir/us/qicore/StructureDefinition-qicore-encounter.html)|
+|Library|CRMI Shareable Library|[CRMI Shareable Library](https://hl7.org/fhir/uv/crmi/StructureDefinition-crmi-shareablelibrary.html)|
+|Location|QI Core Location Profile|[QI Core Location](https://hl7.org/fhir/us/qicore/StructureDefinition-qicore-location.html)|
+|Measure|CRMI Shareable Measure Profile|[CRMI Shareable Measure](https://hl7.org/fhir/uv/crmi/StructureDefinition-crmi-shareablemeasure.html)|
+|MeasureReport|DEQM Individual MeasureReport Profile|[DEQM Individual MeasureReport Profile](StructureDefinition-deqm-individualmeasurereport.html)|
+|MeasureReport|DEQM Summary MeasureReport Profile|[DEQM Summary MeasureReport Profile](StructureDefinition-deqm-summarymeasurereport.html)|
+|MedicationRequest|QI Core Medication Not Requested|[QICoreMedicationNotRequested](https://hl7.org/fhir/us/qicore/STU6/StructureDefinition-qicore-medicationnotrequested.html)|
+|Observation|QI Core Observation Profile|[QI Core Observation](https://hl7.org/fhir/us/qicore/StructureDefinition-qicore-simple-observation.html)|
+|Organization|QI Core Organization Profile|[QI Core Organization](https://hl7.org/fhir/us/qicore/StructureDefinition-qicore-organization.html)|
+|Patient|QI Core Patient Profile|[QI Core Patient](https://hl7.org/fhir/us/qicore/StructureDefinition-qicore-patient.html)|
+|Practitioner|QI Core Practitioner Profile|[QI Core Practitioner](https://hl7.org/fhir/us/qicore/StructureDefinition-qicore-practitioner.html)|
+|ServiceRequest|QI Core ServiceRequest Profile|[QI Core ServiceRequest](https://hl7.org/fhir/us/qicore/StructureDefinition-qicore-servicerequest.html)|
 
 {: #practitioner-references}
 ### Graph of VTE-1 Resources

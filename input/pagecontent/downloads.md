@@ -1,7 +1,7 @@
 ### Downloads
-* This full [DEQM Implementation Guide](full-ig.zip)
-* FHIR R4 DEQM Resource Definitions [(JSON)](definitions.json.zip) [(XML)](definitions.xml.zip) [(TTL)](definitions.ttl.zip)
-* FHIR R4 DEQM Examples [(JSON)](examples.json.zip) [(XML)](examples.xml.zip) [(TTL)](examples.ttl.zip)
+* This full [DEQM Implementation Guide](../full-ig.zip)
+* FHIR R4 DEQM Resource Definitions [(JSON)](../definitions.json.zip) [(XML)](../definitions.xml.zip) [(TTL)](../definitions.ttl.zip)
+* FHIR R4 DEQM Examples [(JSON)](../examples.json.zip) [(XML)](../examples.xml.zip) [(TTL)](../examples.ttl.zip)
 * [FHIR core downloads]({{site.data.fhir.path}}downloads.html)
 * [Using the FHIR Validator](https://confluence.hl7.org/display/FHIR/Using+the+FHIR+Validator)
 
@@ -10,24 +10,24 @@ The following package file includes an NPM  (Node Package Manager) package file 
 
 See the overview on validating <a href="http://hl7.org/fhir/R4/validation.html">FHIR profiles and resources</a>:
 
-* [Package](package.tgz)
+* [Package](../package.tgz)
 
 #### Cross Version Analysis
 
-{% lang-fragment cross-version-analysis.xhtml %}
+{% include cross-version-analysis.xhtml %}
 
 #### Dependency Table
 
-{% lang-fragment dependency-table.xhtml %}
+{% include dependency-table.xhtml %}
 
 #### Globals Table
 
-{% lang-fragment globals-table.xhtml %}
+{% include globals-table.xhtml %}
 
 #### IP Statements
 
-{% lang-fragment ip-statements.xhtml %}
+{% include ip-statements.xhtml %}
 
 ### Expansion Parameters
 
-{% lang-fragment expansion-params.xhtml %}
+{% include expansion-params.xhtml %}

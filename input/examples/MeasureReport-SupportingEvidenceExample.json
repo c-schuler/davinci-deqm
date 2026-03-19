@@ -554,7 +554,7 @@
                                 {
                                     "url": "value",
                                     "valueCoding": {
-                                        "code": "M",
+                                        "code": "male",
                                         "system": "http://hl7.org/fhir/administrative-gender",
                                         "display": "Male"
                                     }
@@ -626,7 +626,6 @@
                                 },
                                 {
                                     "url": "value",
-                                    "valueBoolean": {
                                         "extension": [
                                             {
                                                 "url": "http://hl7.org/fhir/StructureDefinition/data-absent-reason",
@@ -638,7 +637,6 @@
                                             }
                                         ]
                                     }
-                                }
                             ]
                         },
                         {
