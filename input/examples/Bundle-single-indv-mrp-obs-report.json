@@ -251,17 +251,6 @@
                         "value": "(+1) 616-555-1212"
                     }
                 ],
-                "type": [
-                    {
-                        "coding": [
-                            {
-                                "code": "other",
-                                "display": "Other",
-                                "system": "http://terminology.hl7.org/CodeSystem/organization-type"
-                            }
-                        ]
-                    }
-                ],
                 "resourceType": "Organization"
             }
         },
@@ -764,7 +753,7 @@
                 "identifier": [
                     {
                         "use": "temp",
-                        "system": "http://exampleoflocation.com",
+                        "system": "http://example.org",
                         "value": "NOBLE HOSPITAL"
                     }
                 ],

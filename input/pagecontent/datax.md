@@ -29,12 +29,12 @@ The following resources are used in all data exchange transactions:
 
 | Resource Type | Profile Name                             | Link to Profile                            |
 |---------------|------------------------------------------|--------------------------------------------|
-| Library       | CRMI Shareable Library                   | [CRMI Shareable Library]                   |
-| Measure       | CRMI Shareable Measure                   | [CRMI Shareable Measure]                   |
-| MeasureReport | DEQM Data Exchange MeasureReport Profile | [DEQM Data Exchange MeasureReport Profile] |
-| Organization  | QI Core Organization Profile             | [QI Core Organization]                     |
-| Patient       | QI Core Patient Profile                  | [QI Core Patient]                          |
-| Practitioner  | QI Core Practitioner Profile             | [QI Core Practitioner]                     |
+| Library       | CRMI Shareable Library                   | [CRMI Shareable Library](https://hl7.org/fhir/uv/crmi/StructureDefinition-crmi-shareablelibrary.html)                   |
+| Measure       | CRMI Shareable Measure                   | [CRMI Shareable Measure](https://hl7.org/fhir/uv/crmi/StructureDefinition-crmi-shareablemeasure.html)                   |
+| MeasureReport | DEQM Data Exchange MeasureReport Profile | [DEQM Data Exchange MeasureReport Profile](StructureDefinition-deqm-dataexchangemeasurereport.html) |
+| Organization  | QI Core Organization Profile             | [QI Core Organization](https://hl7.org/fhir/us/qicore/StructureDefinition-qicore-organization.html)                     |
+| Patient       | QI Core Patient Profile                  | [QI Core Patient](https://hl7.org/fhir/us/qicore/StructureDefinition-qicore-patient.html)                          |
+| Practitioner  | QI Core Practitioner Profile             | [QI Core Practitioner](https://hl7.org/fhir/us/qicore/StructureDefinition-qicore-practitioner.html)                     |
 
 
 Depending on the specific Measure, various DEQM and QI Core Profiles are also used in addition to the profiles listed above

@@ -9,10 +9,6 @@
         ],
         "source": "http://example.org/fhir/server"
     },
-    "text": {
-        "status": "generated",
-        "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><div class=\"hapiHeaderText\">Jairo <b>WEBSTER </b></div><table class=\"hapiPropertyTable\"><tbody><tr><td>Identifier</td><td>12345</td></tr><tr><td>Address</td><td><span>7496 Beaver Ridge Ave </span><br/><span>Thornton </span><span>NJ </span><span>USA </span></td></tr><tr><td>Date of birth</td><td><span>16 December 1946</span></td></tr></tbody></table></div>"
-    },
     "extension": [
         {
             "url": "http://hl7.org/fhir/us/core/StructureDefinition/us-core-birthsex",
@@ -65,7 +61,7 @@
                     }
                 ]
             },
-            "system": "http://hospital.davinci.org",
+            "system": "http://example.org/hospital",
             "value": "12345"
         }
     ],

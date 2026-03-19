@@ -275,7 +275,7 @@
                 }
               ]
             },
-            "system": "http://hospital.davinci.org",
+            "system": "http://example.org/hospital",
             "value": "67890"
           }
         ],
@@ -513,7 +513,7 @@
         "id": "medicationRequest01",
         "meta": {
           "profile": [
-            "http://hl7.org/fhir/us/qicore/StructureDefinition/qicore-medicationnotrequested"
+            "http://hl7.org/fhir/us/qicore/StructureDefinition/qicore-medicationprohibited"
           ]
         },
         "status": "completed",

@@ -19,17 +19,17 @@ When patients change providers or healthcare payers, health data can become frag
 
 |Resource Type| Profile Name                       | Link to Profile                      |
 |---|------------------------------------|--------------------------------------|
-|Bundle| DEQM Gaps In Care Bundle Profile   | [DEQM Gaps In Care Bundle Profile]   
-|Composition| DEQM Gaps In Care Composition Profile | [DEQM Gaps In Care Composition Profile] 
-|DetectedIssue| DEQM Gaps In Care DetectedIssue Profile | [DEQM Gaps In Care DetectedIssue Profile] 
-|Encounter| QI Core Encounter Profile           | [QI Core Encounter]                   |
-|Library| CRMI Shareable Library             | [CRMI Shareable Library]                       |
-|Measure| CRMI Shareable Measure Profile     | [CRMI Shareable Measure]                       |
-|MeasureReport| DEQM Individual MeasureReport Profile | [DEQM Individual MeasureReport Profile] |
-|Organization| QI Core Organization Profile        | [QI Core Organization]                |
-|Patient| QI Core Patient Profile             | [QI Core Patient]                     |
-|Practitioner| QI Core Practitioner Profile        | [QI Core Practitioner]                |
-|Procedure| QI Core Procedure Profile           | [QI Core Procedure]                   |
+|Bundle| DEQM Gaps In Care Bundle Profile   | [DEQM Gaps In Care Bundle Profile](StructureDefinition-deqm-gapsincarebundle.html)                    |
+|Composition| DEQM Gaps In Care Composition Profile | [DEQM Gaps In Care Composition Profile](StructureDefinition-deqm-gapsincarecomposition.html)              |
+|DetectedIssue| DEQM Gaps In Care DetectedIssue Profile | [DEQM Gaps In Care DetectedIssue Profile](StructureDefinition-deqm-gapsincaredetectedissue.html)      |
+|Encounter| QI Core Encounter Profile           | [QI Core Encounter](https://hl7.org/fhir/us/qicore/StructureDefinition-qicore-encounter.html)                   |
+|Library| CRMI Shareable Library             | [CRMI Shareable Library](https://hl7.org/fhir/uv/crmi/StructureDefinition-crmi-shareablelibrary.html)                       |
+|Measure| CRMI Shareable Measure Profile     | [CRMI Shareable Measure](https://hl7.org/fhir/uv/crmi/StructureDefinition-crmi-shareablemeasure.html)                       |
+|MeasureReport| DEQM Individual MeasureReport Profile | [DEQM Individual MeasureReport Profile](StructureDefinition-deqm-individualmeasurereport.html) |
+|Organization| QI Core Organization Profile        | [QI Core Organization](https://hl7.org/fhir/us/qicore/StructureDefinition-qicore-organization.html)                |
+|Patient| QI Core Patient Profile             | [QI Core Patient](https://hl7.org/fhir/us/qicore/StructureDefinition-qicore-patient.html)                     |
+|Practitioner| QI Core Practitioner Profile        | [QI Core Practitioner](https://hl7.org/fhir/us/qicore/StructureDefinition-qicore-practitioner.html)                |
+|Procedure| QI Core Procedure Profile           | [QI Core Procedure](https://hl7.org/fhir/us/qicore/StructureDefinition-qicore-procedure.html)                   |
 
 ### Care Gaps Operation
 {:.no_toc}

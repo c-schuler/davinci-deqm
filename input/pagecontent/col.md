@@ -16,21 +16,21 @@ In the case of colorectal cancer screening, two types of data are reported: 1) t
 
 |Resource Type|Profile Name|Link to Profile|
 |---|---|---|
-|Condition|QI Core Condition Problems Health Concerns Profile|[QI Core Condition Problems Health Concerns]|
-|Coverage|QI Core Coverage Profile|[QI Core Coverage]|
-|DiagnosticReport|QI Core DiagnosticReport Profile|[QI Core DiagnosticReport]|
-|Encounter|QI Core Encounter Profile|[QI Core Encounter]|
-|Library|CRMI Shareable Library|[CRMI Shareable Library]|
-|Location|QI Core Location Profile|[QI Core Location]|
-|Measure|CRMI Shareable Measure Profile|[CRMI Shareable Measure]|
-|MeasureReport|DEQM Data Exchange MeasureReport Profile|[DEQM Data Exchange MeasureReport Profile]|
-|MeasureReport|DEQM Individual MeasureReport Profile|[DEQM Individual MeasureReport Profile]|
-|MeasureReport|DEQM Summary MeasureReport Profile|[DEQM Summary MeasureReport Profile]|
-|Observation|QI Core Observation Profile|[QI Core Observation]|
-|Organization|QI Core Organization Profile|[QI Core Organization]|
-|Patient|QI Core Patient Profile|[QI Core Patient]|
-|Practitioner|QI Core Practitioner Profile|[QI Core Practitioner]|
-|Procedure|QI Core Procedure Profile|[QI Core Procedure]|
+|Condition|QI Core Condition Problems Health Concerns Profile|[QI Core Condition Problems Health Concerns](https://hl7.org/fhir/us/qicore/StructureDefinition-qicore-condition-problems-health-concerns.html)|
+|Coverage|QI Core Coverage Profile|[QI Core Coverage](https://hl7.org/fhir/us/qicore/StructureDefinition-qicore-coverage.html)|
+|DiagnosticReport|QI Core DiagnosticReport Profile|[QI Core DiagnosticReport](https://hl7.org/fhir/us/qicore/StructureDefinition-qicore-diagnosticreport-lab.html)|
+|Encounter|QI Core Encounter Profile|[QI Core Encounter](https://hl7.org/fhir/us/qicore/StructureDefinition-qicore-encounter.html)|
+|Library|CRMI Shareable Library|[CRMI Shareable Library](https://hl7.org/fhir/uv/crmi/StructureDefinition-crmi-shareablelibrary.html)|
+|Location|QI Core Location Profile|[QI Core Location](https://hl7.org/fhir/us/qicore/StructureDefinition-qicore-location.html)|
+|Measure|CRMI Shareable Measure Profile|[CRMI Shareable Measure](https://hl7.org/fhir/uv/crmi/StructureDefinition-crmi-shareablemeasure.html)|
+|MeasureReport|DEQM Data Exchange MeasureReport Profile|[DEQM Data Exchange MeasureReport Profile](StructureDefinition-deqm-dataexchangemeasurereport.html)|
+|MeasureReport|DEQM Individual MeasureReport Profile|[DEQM Individual MeasureReport Profile](StructureDefinition-deqm-individualmeasurereport.html)|
+|MeasureReport|DEQM Summary MeasureReport Profile|[DEQM Summary MeasureReport Profile](StructureDefinition-deqm-summarymeasurereport.html)|
+|Observation|QI Core Observation Profile|[QI Core Observation](https://hl7.org/fhir/us/qicore/StructureDefinition-qicore-simple-observation.html)|
+|Organization|QI Core Organization Profile|[QI Core Organization](https://hl7.org/fhir/us/qicore/StructureDefinition-qicore-organization.html)|
+|Patient|QI Core Patient Profile|[QI Core Patient](https://hl7.org/fhir/us/qicore/StructureDefinition-qicore-patient.html)|
+|Practitioner|QI Core Practitioner Profile|[QI Core Practitioner](https://hl7.org/fhir/us/qicore/StructureDefinition-qicore-practitioner.html)|
+|Procedure|QI Core Procedure Profile|[QI Core Procedure](https://hl7.org/fhir/us/qicore/StructureDefinition-qicore-procedure.html)|
 
 ### Graph of COL Resources
 

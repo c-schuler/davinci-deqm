@@ -6,9 +6,21 @@
     "https://madie.cms.gov/Library/SupportingEvidenceExample"
   ],
    "name": "SupportingEvidenceMeasure",
+   "version": "1.0.0",
   "title": "Supporting Evidence Measure" ,
   "experimental": true,
   "description": "This is an example of a Maasure using Supporing Evidence", 
+  "jurisdiction": [
+		{
+			"coding": [
+				{
+					"system": "http://unstats.un.org/unsd/methods/m49/m49.htm",
+					"code": "001",
+					"display": "World"
+				}
+			]
+		}
+	],
   "scoring": {
     "coding": [
       {

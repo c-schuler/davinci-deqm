@@ -8,16 +8,26 @@
     },
     "status": "complete",
     "type": "individual",
-    "measure": "https://madie.cms.gov/Measure/SupportingEvidenceExample",
-    "subject": "Patient/patient01",
+    "measure": "https://madie.cms.gov/Measure/SupportingEvidenceExample|1.0.0",
+   "subject": {
+        "reference": "Patient/patient01"
+      },
     "date": "2025-09-01",
-    "reporter": "Organization/organization01",
+    "reporter": {
+        "reference": "Organization/organization01"
+        },
     "period": {
         "start": "2025-08-01",
         "end": "2025-09-01"
     },
     "group": [
         {
+             "extension": [
+                {
+                    "url": "http://hl7.org/fhir/5.0/StructureDefinition/extension-MeasureReport.group.linkId",
+                    "valueString": "group-1"
+                }
+            ],
             "population": [
                 {
                     "id": "denominator",
@@ -32,6 +42,10 @@
                     },
                     "count": 1,
                     "extension": [
+                         {
+                            "url": "http://hl7.org/fhir/5.0/StructureDefinition/extension-MeasureReport.group.population.linkId",
+                            "valueString": "denominator"
+                        },
                         {
                             "url": "http://hl7.org/fhir/StructureDefinition/cqf-supportingEvidence",
                             "extension": [
@@ -540,7 +554,7 @@
                                 {
                                     "url": "value",
                                     "valueCoding": {
-                                        "code": "M",
+                                        "code": "male",
                                         "system": "http://hl7.org/fhir/administrative-gender",
                                         "display": "Male"
                                     }
@@ -612,7 +626,6 @@
                                 },
                                 {
                                     "url": "value",
-                                    "valueBoolean": {
                                         "extension": [
                                             {
                                                 "url": "http://hl7.org/fhir/StructureDefinition/data-absent-reason",
@@ -624,7 +637,6 @@
                                             }
                                         ]
                                     }
-                                }
                             ]
                         },
                         {
@@ -791,10 +803,30 @@
                         ]
                     },
                     "count": 70
+                },
+                {
+                    "id": "numerator-exclusion",
+                    "extension": [
+                        {
+                            "url": "http://hl7.org/fhir/5.0/StructureDefinition/extension-MeasureReport.group.population.linkId",
+                            "valueString": "Numerator-Exclusion"
+                        }
+                    ],
+                    "code": {
+                        "coding": [
+                            {
+                                "system": "http://terminology.hl7.org/CodeSystem/measure-population",
+                                "code": "numerator-exclusion",
+                                "display": "Numerator Exclusion"
+                            }
+                        ]
+                    },
+                    "count": 0
                 }
             ],
             "measureScore": {
-                "value": 0.1
+                "value": 0.1,
+                "unit": "d"
             }
         }
     ]

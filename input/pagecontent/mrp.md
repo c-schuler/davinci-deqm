@@ -21,19 +21,19 @@ Note that the exchange of the reconciled medication list, indication of conversa
 
 |Resource Type| Profile Name                     | Link to Profile                    |
 |---|----------------------------------|------------------------------------|
-|Coverage| QI Core Coverage Profile          | [QI Core Coverage]                  |
-|Encounter| QI Core Encounter Profile         | [QI Core Encounter]                 |
-|Location| QI Core Location Profile          | [QI Core Location]                  |
-|Library| CRMI Shareable Library             | [CRMI Shareable Library]                     |
-|Measure| CRMI Shareable Measure Profile             | [CRMI Shareable Measure]                     |
-|MeasureReport| DEQM Data Exchange MeasureReport Profile | [DEQM Data Exchange MeasureReport Profile] |
-|MeasureReport| DEQM Individual MeasureReport Profile | [DEQM Individual MeasureReport Profile] |
-|MeasureReport| DEQM Summary MeasureReport Profile | [DEQM Summary MeasureReport Profile] |
-|Observation| QI Core Observation Profile       | [QI Core Observation]               |
-|Organization| QI Core Organization Profile      | [QI Core Organization]              |
-|Patient| QI Core Patient Profile           | [QI Core Patient]                   |
-|Practitioner| QI Core Practitioner Profile      | [QI Core Practitioner]              |
-|Task| QI Core Task Profile              | [QI Core Task]                      |
+|Coverage| QI Core Coverage Profile          | [QI Core Coverage](https://hl7.org/fhir/us/qicore/StructureDefinition-qicore-coverage.html)                  |
+|Encounter| QI Core Encounter Profile         | [QI Core Encounter](https://hl7.org/fhir/us/qicore/StructureDefinition-qicore-encounter.html)                 |
+|Location| QI Core Location Profile          | [QI Core Location](https://hl7.org/fhir/us/qicore/StructureDefinition-qicore-location.html)                  |
+|Library| CRMI Shareable Library             | [CRMI Shareable Library](https://hl7.org/fhir/uv/crmi/StructureDefinition-crmi-shareablelibrary.html)                     |
+|Measure| CRMI Shareable Measure Profile             | [CRMI Shareable Measure](https://hl7.org/fhir/uv/crmi/StructureDefinition-crmi-shareablemeasure.html)                     |
+|MeasureReport| DEQM Data Exchange MeasureReport Profile | [DEQM Data Exchange MeasureReport Profile](StructureDefinition-deqm-dataexchangemeasurereport.html) |
+|MeasureReport| DEQM Individual MeasureReport Profile | [DEQM Individual MeasureReport Profile](StructureDefinition-deqm-individualmeasurereport.html) |
+|MeasureReport| DEQM Summary MeasureReport Profile | [DEQM Summary MeasureReport Profile](StructureDefinition-deqm-summarymeasurereport.html) |
+|Observation| QI Core Observation Profile       | [QI Core Observation](https://hl7.org/fhir/us/qicore/StructureDefinition-qicore-simple-observation.html)               |
+|Organization|QI Core Organization Profile|[QI Core Organization](https://hl7.org/fhir/us/qicore/StructureDefinition-qicore-organization.html)|
+|Patient|QI Core Patient Profile|[QI Core Patient](https://hl7.org/fhir/us/qicore/StructureDefinition-qicore-patient.html)|
+|Practitioner|QI Core Practitioner Profile|[QI Core Practitioner](https://hl7.org/fhir/us/qicore/StructureDefinition-qicore-practitioner.html)|
+|Task| QI Core Task Profile              | [QI Core Task](https://hl7.org/fhir/us/qicore/StructureDefinition-qicore-task.html)                      |
 {: #practitioner_footnote}
 ### Graph of MRP Resources
 

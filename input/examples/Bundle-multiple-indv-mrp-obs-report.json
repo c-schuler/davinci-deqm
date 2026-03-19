@@ -521,7 +521,7 @@
             "gender": "female",
             "identifier": [
                {
-                  "system": "http://hospital.davinci.org",
+                  "system": "http://hospital.smarthealthit.org",
                   "type": {
                      "coding": [
                         {
@@ -1383,7 +1383,7 @@
             "gender": "male",
             "identifier": [
                {
-                  "system": "http://hospital.davinci.org",
+                  "system": "http://hospital.smarthealthit.org",
                   "type": {
                      "coding": [
                         {
@@ -1509,7 +1509,7 @@
             "gender": "male",
             "identifier": [
                {
-                  "system": "http://hospital.davinci.org",
+                  "system": "http://example.org",
                   "type": {
                      "coding": [
                         {

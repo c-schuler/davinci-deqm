@@ -14,8 +14,8 @@
   "url": "http://hl7.org/fhir/uv/deqm/StructureDefinition/deqm-detailedcaregapguidanceresponse",
   "name": "DEQMDetailedCareGapGuidanceResponse",
   "title": "DEQM Detailed Care Gap Guidance Response",
-  "description": "Derived from the GuidanceResponse resource, the Detailed Care Gap Guidance Response profile supports the functionality of providing reason for guidance and detailed guidance to help address care gaps and close open gaps.",
   "status": "active",
+  "description": "Derived from the GuidanceResponse resource, the Detailed Care Gap Guidance Response profile supports the functionality of providing reason for guidance and detailed guidance to help address care gaps and close open gaps.",
   "fhirVersion": "4.0.1",
   "mapping": [
     {

@@ -15,7 +15,7 @@
   "compose": {
     "include": [
       {
-        "system": "http://hl7.org/fhir/uv/deqm/CodeSystem/deqm-remark-reason"
+        "system": "http://hl7.org/fhir/uv/deqm/CodeSystem/remark-reason"
       }
     ]
   }

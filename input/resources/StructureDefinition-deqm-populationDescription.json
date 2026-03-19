@@ -35,11 +35,11 @@
     },
      {
       "type": "element",
-      "expression": "MeasureReport.population"
+      "expression": "MeasureReport.group.population"
     },
      {
       "type": "element",
-      "expression": "MeasureReport.stratifier"
+      "expression": "MeasureReport.group.stratifier"
     }
   ],
   "type": "Extension",

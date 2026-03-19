@@ -80,8 +80,7 @@
                 "http://hl7.org/fhir/StructureDefinition/Practitioner",
                 "http://hl7.org/fhir/StructureDefinition/PractitionerRole",
                 "http://hl7.org/fhir/StructureDefinition/Organization"
-            ],
-            "searchType": "reference"
+            ]
         },
         {
             "extension": [

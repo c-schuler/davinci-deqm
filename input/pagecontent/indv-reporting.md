@@ -95,10 +95,10 @@ The following resources are used in all individual reporting transactions.
 
 |Resource Type|Profile Name|Link to Profile|
 |---|---|---|
-|Measure|CRMI Shareable Measure Profile|[CRMI Shareable Measure]|
-|Individual MeasureReport|DEQM Individual MeasureReport Profile|[DEQM Individual MeasureReport Profile]|
-|Organization|QI Core Organization Profile|[QI Core Organization]|
-|Patient|QI Core Patient Profile|[QI Core Patient]|
+|Measure|CRMI Shareable Measure Profile|[CRMI Shareable Measure](https://hl7.org/fhir/uv/crmi/StructureDefinition-crmi-shareablemeasure.html)|
+|Individual MeasureReport|DEQM Individual MeasureReport Profile|[DEQM Individual MeasureReport Profile](StructureDefinition-deqm-individualmeasurereport.html)|
+|Organization|QI Core Organization Profile|[QI Core Organization](https://hl7.org/fhir/us/qicore/StructureDefinition-qicore-organization.html)|
+|Patient|QI Core Patient Profile|[QI Core Patient](https://hl7.org/fhir/us/qicore/StructureDefinition-qicore-patient.html)|
 
 Depending on the specific Measure and Interaction, various DEQM and QI-Core Profiles are used in addition to the profiles listed above.
 
