@@ -53,8 +53,6 @@ The DEQM resources form a network through their relationships with each other - 
 {:.highlight-note}
 <span class="bg-success">The $submit-data operation defined in earlier versions of this guide has been deprecated. A Producer should use the [core FHIR API](https://hl7.org/fhir/R4/http.html)</span> to submit data of interest for one or more measures, and for one or more subjects, within the specified [submission period](glossary.html#submission-period).  The operation MAY be repeated during the submission period as additional data relevant to the quality measure becomes available.  <span class="bg-success">A  bundle SHALL contain 1..* DEQM Data Exchange MeasureReport with data-of-interest and SHOULD be for a single subject. See the guidance on Bundle structure for discussion about the Bundle content and organization.</span> The Producer submits the data either as  [incremental](glossary.html#incremental-update) or [snapshot](glossary.html#snapshot-update) updates. These update methods are described in detail [below](#submit-updates).
 
- Alternatively, data may be submitted in bulk with the [$bulk-submit-data](OperationDefinition-bulk-submit-data.html) operation. This supports both synchronous and asynchronous messaging as described in the operation definition.
-
 {% include img.html img="submit-data-step.jpg" caption = "Figure 2-2 Submit Data Steps" %}
 
 #### Gather Data Requirements from Consumer
@@ -282,6 +280,9 @@ The two DEQM data exchange operations, [$submit-data] and [$collect-data], have 
 The Supporting Evidence extension on the population element of the Data Exchange MeasureReport Profile enables the optional inclusion of supporting results from measure logic that provide additional context for reported population counts or stratifications. Similar to its use in the individual report context, the extension conveys the result of supporting evidence expressions evaluated during measure calculation and represents those results using the mapping conventions defined in Using CQL With FHIR IG. By embedding the results within this extension, the approach supports representation of complex structures such as tuples and lists without requiring separate Parameters resources.
 
 The primary purpose of this extension in the data exchange context is to support richer interoperability between measure reporting and measure consumption systems by enabling the exchange of explanatory evidence associated with population results. Typical use cases include scenarios where a reporting system shares additional context with a downstream quality analysis platform, payer, or public health agency to clarify how population membership or counts were determined. For example, supporting evidence expressions may provide references to key resources, derived clinical values, or intermediate logic outputs used to determine population inclusion criteria. Including this evidence can facilitate measure result validation, improve transparency of measure computation, and support advanced analytics or troubleshooting when population results differ across systems.
+
+### Bulk Data Exchange
+The [Bulk Data Access IG](https://hl7.org/fhir/uv/bulkdata/en/) provides workflows for Bulk Export and Bulk Submit (the latter expected to ballot in September 2026, currently in draft [here](https://hackmd.io/@argonaut/rJoqHZrPle)). DEQM endorses the Bulk Data Access IG as the method for bulk data exchange and it can be integrated into DEQM workflows.
 
 ### Provenance
 

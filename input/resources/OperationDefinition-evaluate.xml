@@ -52,31 +52,12 @@
         <type value="date"/>
     </parameter>
     <parameter>
-        <name value="manifest"/>
-        <use value="in"/>
-        <min value="0"/>
-        <max value="1"/>
-        <targetProfile value="http://hl7.org/fhir/uv/crmi/StructureDefinition/crmi-manifestlibrary"/>        
-        <documentation value="Specifies an asset-collection library that provides dependency version resolution and expansion rules for the operation. See the description of manifest in the Canonical Resource Management Infrastructure IG for a complete description of how manifest values are used to provide defaults for dependency version resolution and expansion parameters. Parameters specified directly in the operation override behaviors specified by the manifest parameter. In general, if this parameter is supplied, it is expected to be used in nested operation calls. For example, in evaluating a measure, if the expansion of a value set is required, this parameter SHALL be supplied to that expansion."/>
-        <type value="canonical"/>
-    </parameter>
-    <parameter>
         <name value="reportType"/>
         <use value="in"/>
         <min value="0"/>
         <max value="1"/>
         <documentation value="The type of measure report: `individual`, `subject-list`, or `summary`. If not specified, a default value of `summary` will be used if the subject parameter is supplied and is a `Group` resource; a default value of `individual` will be used if the subject parameter is supplied and is not a `Group` resource; otherwise, a default value of `summary` will be used. NOTE: Implementations should support the use of `subject` for `individual` and `population` for `summary` for backwards compatibility with existing implementations."/>
         <type value="code"/>
-    </parameter> 
-    <parameter> 
-        <name value="location"/> 
-        <use value="in"/> 
-        <min value="0"/> 
-        <max value="*"/> 
-        <documentation value="The location(s) for which the report will be run. This parameter is reflected in
-            the location element of the resulting MeasureReport(s)."/> 
-        <type value="string"/> 
-        <searchType value="reference"/> 
     </parameter> 
     <parameter>
         <name value="subject"/>
@@ -95,22 +76,6 @@
         <documentation value="Subjects for which the measure will be evaluated, provided as a Group resource. Subjects provided in this parameter SHALL match the subjectType of the measure being evaluated. (e.g. if the Measure.group.subjectType is Patient, the subject SHALL be a reference to a Patient or a Group of Patients). This parameter cannot be used with the subject parameter. If no subject or subjectGroup is provided, what subjects are evaluated is up to the server."/>
         <type value="Group"/>
     </parameter>
-    <parameter>
-        <name value="parameters"/>
-        <use value="in"/>
-        <min value="0"/>
-        <max value="1"/>
-        <documentation value="Any input parameters for the Measure evaluation. If the measure uses CQL, the parameter types are mapped to CQL as specified in the Parameters and Data Requirements section of the Using CQL with FHIR Implementation Guide. Any parameters defined in this input will be bound by name to parameters defined in the logic library referenced from library element of the Measure. If a parameter appears more than once in the input Parameters resource, it is represented with a List in the input CQL. If a parameter has parts, it is represented as a Tuple in the input CQL."/>
-        <type value="Parameters"/>
-    </parameter>
-    <parameter>
-        <name value="lastReceivedOn"/>
-        <use value="in"/>
-        <min value="0"/>
-        <max value="1"/>
-        <documentation value="The date the results of this measure were last received. This parameter is only valid for patient-level reports and is used to indicate when the last time a result for this patient was received. This information can be used to limit the set of resources returned for a patient-level report"/>
-        <type value="dateTime"/>
-    </parameter>
     <parameter> 
         <name value="reporter"/> 
         <use value="in"/> 
@@ -123,25 +88,69 @@
             element of the resulting MeasureReport(s). This parameter cannot be used with the
             reporterResource parameter."/> 
         <type value="string"/> 
+        <targetProfile value="http://hl7.org/fhir/StructureDefinition/Practitioner"/>
+        <targetProfile value="http://hl7.org/fhir/StructureDefinition/PractitionerRole"/>
+        <targetProfile value="http://hl7.org/fhir/StructureDefinition/Organization"/>
         <searchType value="reference"/> 
     </parameter> 
     <parameter> 
+        <extension url="http://hl7.org/fhir/StructureDefinition/operationdefinition-allowed-type">
+          <valueCode value="Practitioner"/>
+        </extension>
+        <extension url="http://hl7.org/fhir/StructureDefinition/operationdefinition-allowed-type">
+          <valueCode value="PractitionerRole"/>
+        </extension>
+        <extension url="http://hl7.org/fhir/StructureDefinition/operationdefinition-allowed-type">
+          <valueCode value="Organization"/>
+        </extension>
         <name value="reporterResource"/> 
         <use value="in"/> 
         <min value="0"/> 
         <max value="1"/> 
-        <documentation value="The provider for which the report will be run, provided as an Organization resource.
+        <documentation value="The provider for which the report will be run, provided as a Practitioner, 
+        PractitionerRole, or Organization resource.
             This is intended to support the use case in which the organization information
             is not on the server performing the evaluation, for example an [ad-hoc group of
             practitioners](guidance.html#ad-hoc-organizations-for-deqm-operations) that
             are part of a provider group. This parameter is reflected in the reporter element
             of the resulting MeasureReport(s). This parameter cannot be used with the reporter
             parameter."/> 
-        <type value="Reference"/>
-        <targetProfile value="http://hl7.org/fhir/StructureDefinition/Practitioner"/>
-        <targetProfile value="http://hl7.org/fhir/StructureDefinition/PractitionerRole"/>
-        <targetProfile value="http://hl7.org/fhir/StructureDefinition/Organization"/>
-        <searchType value="reference"/>
+        <type value="DomainResource"/>
+    </parameter>
+    <parameter> 
+        <name value="location"/> 
+        <use value="in"/> 
+        <min value="0"/> 
+        <max value="*"/> 
+        <documentation value="The location(s) for which the report will be run. This parameter is reflected in
+            the location element of the resulting MeasureReport(s)."/> 
+        <type value="string"/> 
+        <searchType value="reference"/> 
+    </parameter> 
+    <parameter>
+        <name value="parameters"/>
+        <use value="in"/>
+        <min value="0"/>
+        <max value="1"/>
+        <documentation value="Any input parameters for the Measure evaluation. If the measure uses CQL, the parameter types are mapped to CQL as specified in the Parameters and Data Requirements section of the Using CQL with FHIR Implementation Guide. Any parameters defined in this input will be bound by name to parameters defined in the logic library referenced from library element of the Measure. If a parameter appears more than once in the input Parameters resource, it is represented with a List in the input CQL. If a parameter has parts, it is represented as a Tuple in the input CQL."/>
+        <type value="Parameters"/>
+    </parameter>
+    <parameter>
+        <name value="manifest"/>
+        <use value="in"/>
+        <min value="0"/>
+        <max value="1"/>
+        <targetProfile value="http://hl7.org/fhir/uv/crmi/StructureDefinition/crmi-manifestlibrary"/>        
+        <documentation value="Specifies an asset-collection library that provides dependency version resolution and expansion rules for the operation. See the description of manifest in the Canonical Resource Management Infrastructure IG for a complete description of how manifest values are used to provide defaults for dependency version resolution and expansion parameters. Parameters specified directly in the operation override behaviors specified by the manifest parameter. In general, if this parameter is supplied, it is expected to be used in nested operation calls. For example, in evaluating a measure, if the expansion of a value set is required, this parameter SHALL be supplied to that expansion."/>
+        <type value="canonical"/>
+    </parameter>
+    <parameter>
+        <name value="lastReceivedOn"/>
+        <use value="in"/>
+        <min value="0"/>
+        <max value="1"/>
+        <documentation value="The date the results of this measure were last received. This parameter is only valid for patient-level reports and is used to indicate when the last time a result for this patient was received. This information can be used to limit the set of resources returned for a patient-level report"/>
+        <type value="dateTime"/>
     </parameter>
     <parameter>
         <name value="excludeEvaluatedResources"/>
