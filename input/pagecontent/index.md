@@ -69,7 +69,7 @@ DEQM is a framework specification that supports a broad set of use cases. As suc
 
 ##### Bulk Data
 
-In each of the scenarios described in DEQM, the FHIR API can be used directly to access the data of interest for the measure being reported. However, to support large volumes of data, [Bulk Data](https://hl7.org/fhir/uv/bulkdata/) may be used to transfer the data of interest between the clinical data repository and the reporting system. As of the time of this publication, the Bulk Data specification is being updated to include important capabilities that will improve the performance of bulk data for the quality reporting use case, in particular the ability to organize bulk data feeds by patient. A future version of this publication will provide more detail on how this capability can be used directly once the updated Bulk Data specification is published.
+In each of the scenarios described in DEQM, the FHIR API can be used directly to access the data of interest for the measure being reported. However, to support large volumes of data, [Bulk Data](https://hl7.org/fhir/uv/bulkdata/) may be used to transfer the data of interest between the clinical data repository and the reporting system. As of the time of this publication, the Bulk Data specification is being updated to include important capabilities that will improve the performance of bulk data for the quality reporting use case, in particular the ability to organize bulk data feeds by subject. A future version of this publication will provide more detail on how this capability can be used directly once the updated Bulk Data specification is published  (expected to ballot in September 2026, currently in draft [here](https://hackmd.io/@argonaut/rJoqHZrPle).
 
 ##### Aggregated Reporting
 
@@ -175,4 +175,9 @@ For the Gaps in Care Reporting Scenarios, the actors are Clients and Servers.
 
 ---
 
+<a href="https://www.flaticon.com/free-icons/hospital" title="hospital icons">Hospital icons created by Freepik - Flaticon</a>
+
+
 {% include link-list.md %}
+
+
