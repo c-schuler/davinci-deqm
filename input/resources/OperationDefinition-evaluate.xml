@@ -22,13 +22,6 @@
         <display value="United States of America"/>
       </coding>
     </jurisdiction>
-     <jurisdiction>
-        <coding>
-            <system value="http://unstats.un.org/unsd/methods/m49/m49.htm"/>
-            <code value="001"/>
-            <display value="World"/>
-        </coding>
-    </jurisdiction>
     <code value="evaluate"/>
     <resource value="Measure"/>
     <system value="false"/>

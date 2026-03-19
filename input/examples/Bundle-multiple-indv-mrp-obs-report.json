@@ -521,7 +521,7 @@
             "gender": "female",
             "identifier": [
                {
-                  "system": "http://example.org",
+                  "system": "http://hospital.smarthealthit.org",
                   "type": {
                      "coding": [
                         {
@@ -1383,7 +1383,7 @@
             "gender": "male",
             "identifier": [
                {
-                  "system": "http://example.org",
+                  "system": "http://hospital.smarthealthit.org",
                   "type": {
                      "coding": [
                         {

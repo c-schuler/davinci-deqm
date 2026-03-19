@@ -7,15 +7,6 @@
   "title": "DEQM Update Type Code System",
   "experimental": false,
   "description": "Concepts for how a DEQM Consumer supports data exchange updates. The choices are snapshot or incremental updates",
-     "jurisdiction": [{
-            "coding": [{
-                "system": "http://unstats.un.org/unsd/methods/m49/m49.htm",
-                "code": "001",
-                "display": "World"
-              }
-            ]
-          }
-        ],
   "caseSensitive": true,
   "url": "http://hl7.org/fhir/uv/deqm/CodeSystem/deqm-update-type",
   "concept": [

@@ -40,15 +40,6 @@
           "display": "United States of America"
         }
       ]
-    },
-    {
-      "coding": [
-        {
-          "system": "http://unstats.un.org/unsd/methods/m49/m49.htm",
-          "code": "001",
-          "display": "World"
-        }
-      ]
     }
   ],
   "code": "category",

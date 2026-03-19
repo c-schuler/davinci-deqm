@@ -7,17 +7,6 @@
    "title": "DEQM Care Gap Reasons Value Set",
   "experimental": false,
   "description": "This is a ValueSet for Care Gap Reasons",
-  "jurisdiction": [
-        {
-            "coding": [
-                {
-                    "system": "http://unstats.un.org/unsd/methods/m49/m49.htm",
-                    "code": "001",
-                    "display": "World"
-                }
-            ]
-        }
-    ],
   "compose": {
     "include": [
       {

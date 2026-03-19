@@ -8,15 +8,6 @@
   "experimental": false,  
   "publisher":"Da Vinci Project",
   "description": "This is a code system for Gaps in Care gap status.",
-     "jurisdiction": [{
-            "coding": [{
-                "system": "http://unstats.un.org/unsd/methods/m49/m49.htm",
-                "code": "001",
-                "display": "World"
-              }
-            ]
-          }
-        ],
   "caseSensitive": true,
   "url": "http://hl7.org/fhir/uv/deqm/CodeSystem/deqm-gaps-status",
   "concept": [

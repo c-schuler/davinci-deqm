@@ -8,17 +8,6 @@
   "title": "DEQM Update Type Value Set",
   "experimental": false,
   "description": "Concepts for how a DEQM Consumer supports data exchange updates. The choices are snapshot or incremental updates",
-   "jurisdiction": [
-        {
-            "coding": [
-                {
-                    "system": "http://unstats.un.org/unsd/methods/m49/m49.htm",
-                    "code": "001",
-                    "display": "World"
-                }
-            ]
-        }
-    ],
   "compose": {
     "include": [
       {

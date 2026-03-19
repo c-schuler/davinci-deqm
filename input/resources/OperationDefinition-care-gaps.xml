@@ -23,13 +23,6 @@
             <display value="United States of America"/>
         </coding>
     </jurisdiction>
-     <jurisdiction>
-        <coding>
-            <system value="http://unstats.un.org/unsd/methods/m49/m49.htm"/>
-            <code value="001"/>
-            <display value="World"/>
-        </coding>
-    </jurisdiction>
     <code value="care-gaps"/>
     <comment value="The effect of invoking this operation is to calculate a measure or a set of measures based on the In Parameters provided and to return Parameters resource containing one or more document bundles describing the gaps in care results
         of each measure, for the specified gaps through period and for the given subject (a patient or a group of patients). Because more than one bundle may be returned, the operation parameter must always be returned.  Note that it is up to the Server to determine whether

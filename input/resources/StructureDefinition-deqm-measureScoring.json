@@ -6,17 +6,6 @@
   "title": "DEQM Measure Scoring Extension",
   "status": "active",
   "description": "Indicates how the calculation is performed for the measure, including proportion, ratio, continuous-variable, and cohort. The value set is extensible, allowing additional measure scoring types to be represented. It is expected to be the same as the scoring element on the referenced Measure",
-   "jurisdiction": [
-        {
-            "coding": [
-                {
-                    "system": "http://unstats.un.org/unsd/methods/m49/m49.htm",
-                    "code": "001",
-                    "display": "World"
-                }
-            ]
-        }
-    ],
   "fhirVersion": "4.0.1",
   "kind": "complex-type",
   "abstract": false,

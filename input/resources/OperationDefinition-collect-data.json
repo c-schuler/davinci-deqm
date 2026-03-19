@@ -20,17 +20,6 @@
     "date": "2024-07-24T10:53:32-05:00",
     "publisher": "The MITRE Corporation",
     "description": "The collect-data operation is used to collect the data-of-interest for the given measure.",
-    "jurisdiction": [
-        {
-            "coding": [
-                {
-                    "system": "http://unstats.un.org/unsd/methods/m49/m49.htm",
-                    "code": "001",
-                    "display": "World"
-                }
-            ]
-        }
-    ],
     "code": "collect-data",
     "resource": [
         "Measure"

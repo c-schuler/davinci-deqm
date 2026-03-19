@@ -452,11 +452,11 @@
                 "gender": "female",
                 "identifier": [
                     {
-                        "system": "http://example.org",
+                        "system": "https://github.com/synthetichealth/synthea",
                         "value": "0156e3a9-c4e1-4c0a-a53e-03ce3984ac65"
                     },
                     {
-                        "system": "http://example.org",
+                        "system": "http://hospital.smarthealthit.org",
                         "type": {
                             "coding": [
                                 {
@@ -498,7 +498,7 @@
                         "value": "S99966861"
                     },
                     {
-                        "system": "http://example.org",
+                        "system": "http://standardhealthrecord.org/fhir/StructureDefinition/passportNumber",
                         "type": {
                             "coding": [
                                 {

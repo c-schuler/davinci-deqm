@@ -7,17 +7,6 @@
   "url": "http://hl7.org/fhir/uv/deqm/ValueSet/care-gap-remark",
   "experimental": false,
   "description": "This is a ValueSet for Care Gap Remark",
-   "jurisdiction": [
-        {
-            "coding": [
-                {
-                    "system": "http://unstats.un.org/unsd/methods/m49/m49.htm",
-                    "code": "001",
-                    "display": "World"
-                }
-            ]
-        }
-    ],
   "compose": {
     "include": [
       {
