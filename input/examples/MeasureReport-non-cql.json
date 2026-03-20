@@ -41,7 +41,7 @@
 			"code": {
 				"coding": [
 					{
-						"system": "http://hl7.org/fhir/uv/saner/CodeSystem/MeasureGroupSystem",
+						"system": "http://example.org/fhir/",
 						"code": "Ventilators",
 						"display": "Ventilators"
 					}
@@ -59,7 +59,7 @@
                     "code": {
                         "coding": [
 							{
-								"system": "http://hl7.org/fhir/uv/saner/CodeSystem/MeasuredValues",
+								"system": "http://example.org/fhir/",
 								"code": "numVent",
 								"display": "Mechanical Ventilators"
 							},
@@ -83,7 +83,7 @@
                     "code": {
                         "coding": [
 							{
-								"system": "http://hl7.org/fhir/uv/saner/CodeSystem/MeasuredValues",
+								"system": "http://example.org/fhir/",
 								"code": "numVentUse",
 								"display": "Mechanical Ventilators in Use"
 							},
@@ -107,12 +107,12 @@
                     "code": {
                         "coding": [
 							{
-								"system": "http://hl7.org/fhir/uv/saner/CodeSystem/MeasuredValues",
+								"system": "http://example.org/fhir/",
 								"code": "numVentAvail",
 								"display": "Mechanical Ventilators Available"
 							},
 							{
-								"system": "http://hl7.org/fhir/uv/saner/CodeSystem/MeasurePopulationSystem",
+								"system": "http://example.org/fhir/",
 								"code": "numerator-complement"
 							}
 						],
