@@ -1,14 +1,9 @@
 {
     "resourceType": "MeasureReport",
-    "id": "indv-non-cql-fhirpath",
-    "meta": {
-        "profile": [
-            "http://hl7.org/fhir/uv/deqm/StructureDefinition/deqm-summarymeasurereport"
-        ]
-    },
+    "id": "FHIRPath-example",
     "status": "complete",
     "type": "summary",
-    "measure": "http://hl7.org/fhir/uv/deqm/Measure/measure-non-cql|1.0.1",
+    "measure": "http://hl7.org/fhir/uv/deqm/Measure/FHIRPath-example",
     "date": "2018-09-05T16:59:52.404Z",
     "reporter": {
         "reference": "Organization/organization01"
@@ -41,7 +36,7 @@
 			"code": {
 				"coding": [
 					{
-						"system": "http://hl7.org/fhir/uv/saner/CodeSystem/MeasureGroupSystem",
+						"system": "http://example.org/fhir/",
 						"code": "Ventilators",
 						"display": "Ventilators"
 					}
@@ -59,7 +54,7 @@
                     "code": {
                         "coding": [
 							{
-								"system": "http://hl7.org/fhir/uv/saner/CodeSystem/MeasuredValues",
+								"system": "http://example.org/fhir/",
 								"code": "numVent",
 								"display": "Mechanical Ventilators"
 							},
@@ -83,7 +78,7 @@
                     "code": {
                         "coding": [
 							{
-								"system": "http://hl7.org/fhir/uv/saner/CodeSystem/MeasuredValues",
+								"system": "http://example.org/fhir/",
 								"code": "numVentUse",
 								"display": "Mechanical Ventilators in Use"
 							},
@@ -107,12 +102,12 @@
                     "code": {
                         "coding": [
 							{
-								"system": "http://hl7.org/fhir/uv/saner/CodeSystem/MeasuredValues",
+								"system": "http://example.org/fhir/",
 								"code": "numVentAvail",
 								"display": "Mechanical Ventilators Available"
 							},
 							{
-								"system": "http://hl7.org/fhir/uv/saner/CodeSystem/MeasurePopulationSystem",
+								"system": "http://example.org/fhir/",
 								"code": "numerator-complement"
 							}
 						],

@@ -24,14 +24,6 @@
         {
             "coding": [
                 {
-                    "code": "US",
-                    "system": "urn:iso:std:iso:3166"
-                }
-            ]
-        },
-        {
-            "coding": [
-                {
                     "system": "http://unstats.un.org/unsd/methods/m49/m49.htm",
                     "code": "001",
                     "display": "World"
@@ -1139,13 +1131,21 @@
                 },
                 "description": "Example showing cqf-supportingEvidenceDefinition extension on a MeasureReport."
             },
-             {
+            {
                 "exampleBoolean": true,
-                "name": "MeasureReport - Individual Non-CQL FHIRPath Example",
+                "name": "MeasureReport - Individual FHIRPath Example",
                 "reference": {
-                    "reference": "MeasureReport/indv-non-cql-fhirpath"
+                    "reference": "MeasureReport/FHIRPath-example"
                 },
-                "description": "Example of a non-CQL FHIRPath (individual) MeasureReport"
+                "description": "Example of a FHIRPath (individual) MeasureReport"
+            },
+            {
+                "exampleBoolean": true,
+                "name": "Measure - FHIRPath Example",
+                "reference": {
+                    "reference": "Measure/FHIRPath-example"
+                },
+                "description": "Example of a FHIRPath Measure"
             },
             {
                 "exampleBoolean": false,
