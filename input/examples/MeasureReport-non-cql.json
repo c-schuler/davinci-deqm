@@ -1,14 +1,9 @@
 {
     "resourceType": "MeasureReport",
-    "id": "indv-non-cql-fhirpath",
-    "meta": {
-        "profile": [
-            "http://hl7.org/fhir/uv/deqm/StructureDefinition/deqm-summarymeasurereport"
-        ]
-    },
+    "id": "FHIRPath-example",
     "status": "complete",
     "type": "summary",
-    "measure": "http://hl7.org/fhir/uv/deqm/Measure/measure-non-cql|1.0.1",
+    "measure": "http://hl7.org/fhir/uv/deqm/Measure/FHIRPath-example",
     "date": "2018-09-05T16:59:52.404Z",
     "reporter": {
         "reference": "Organization/organization01"
