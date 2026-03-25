@@ -133,7 +133,7 @@ A definition for CodeSystem 'http://example.org/stratification' could not be fou
 A definition for CodeSystem 'http://example.org/CodeSystem/SOP' could not be found, so the code cannot be validated
 A definition for CodeSystem 'http://example.org/CodeSystem/medicare-subgroup' could not be found, so the code cannot be validated
 A definition for CodeSystem 'http://example.org/CodeSystem/dose-rate-type' could not be found, so the code cannot be validated
-WARNING: MeasureReport/ratio-measurereport01: MeasureReport: The Measure 'http://example.org/ecqms/Measure/HospitalHarmHyperglycemiainHospitalizedPatientsFHIR' could not be resolved, so no validation can be performed against the Measure
+WARNING: MeasureReport/ratio-measurereport01: MeasureReport: The Measure 'http://example.org/ecqms/Measure/HospitalHarmHyperglycemiainHospitalizedPatientsFHIR|1.0.0' could not be resolved, so no validation can be performed against the Measure
 The Measure 'http://example.org/fhir/Measure/AlaraCTFHIRMeasure|1.0.0' could not be resolved, so no validation can be performed against the Measure
 The Measure 'http://example.org/fhir/Measure/example-stratification-measure|5.0.0' could not be resolved, so no validation can be performed against the Measure
 
@@ -460,3 +460,8 @@ ERROR: OperationDefinition/collect-data: OperationDefinition.parameter[5]: Const
 ERROR: OperationDefinition/collect-data: OperationDefinition.parameter[7]: Constraint failed: opd-3: 'A targetProfile can only be specified for parameters of type Reference or Canonical (targetProfile.exists() implies (type = 'Reference' or type = 'canonical'))'
 ERROR: OperationDefinition/evaluate: OperationDefinition.parameter[6]: Constraint failed: opd-3: 'A targetProfile can only be specified for parameters of type Reference or Canonical (targetProfile.exists() implies (type = 'Reference' or type = 'canonical'))'
 
+# Patch URIs that should not resolve generally, they are part of the patch process
+WARNING: Parameters/measurereport01-patch: Parameters.parameter[0].part[3].part[1].part[0].value.ofType(uri): No definition could be found for URL value 'authorDatetime'
+WARNING: Parameters/measurereport01-patch-mult: Parameters.parameter[0].part[3].part[1].part[0].value.ofType(uri): No definition could be found for URL value 'authorDatetime'
+WARNING: Parameters/measurereport01-patch-mult: Parameters.parameter[1].part[3].part[1].part[0].value.ofType(uri): No definition could be found for URL value 'text'
+WARNING: Parameters/measurereport01-patch-mult: Parameters.parameter[2].part[3].part[1].part[0].value.ofType(uri): No definition could be found for URL value 'authorDatetime'
