@@ -95,13 +95,13 @@
     </parameter> 
     <parameter> 
         <extension url="http://hl7.org/fhir/StructureDefinition/operationdefinition-allowed-type">
-          <valueCode value="Practitioner"/>
+          <valueUri value="Practitioner"/>
         </extension>
         <extension url="http://hl7.org/fhir/StructureDefinition/operationdefinition-allowed-type">
-          <valueCode value="PractitionerRole"/>
+          <valueUri value="PractitionerRole"/>
         </extension>
         <extension url="http://hl7.org/fhir/StructureDefinition/operationdefinition-allowed-type">
-          <valueCode value="Organization"/>
+          <valueUri value="Organization"/>
         </extension>
         <name value="reporterResource"/> 
         <use value="in"/> 
@@ -209,8 +209,8 @@
                 <documentation value="Meaning of the stratifier component."/> 
                 <type value="code"/> 
                 <binding> 
-                    <strength value="example"/> 
-                    <valueSet value="http://hl7.org/fhir/ValueSet/measure-stratifier-example"/> 
+                    <strength value="preferred"/> 
+                    <valueSet value="http://terminology.hl7.org/CodeSystem/measure-stratifier-type"/> 
                 </binding> 
             </part> 
             <part> 
@@ -286,10 +286,6 @@
             <max value="1"/> 
             <documentation value="Meaning of the supplemental data."/> 
             <type value="CodeableConcept"/> 
-            <binding> 
-                <strength value="example"/> 
-                <valueSet value="http://hl7.org/fhir/ValueSet/measure-supplemental-data-example"/> 
-            </binding> 
         </part> 
         <part> 
             <name value="usage"/> 

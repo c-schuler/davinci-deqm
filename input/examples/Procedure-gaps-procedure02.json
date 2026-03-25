@@ -9,7 +9,7 @@
   "extension":               
   [
     {
-      "url": "http://hl7.org/fhir/us/qicore/StructureDefinition/qicore-recorded",
+      "url": "http://hl7.org/fhir/5.0/StructureDefinition/extension-Procedure.recorded",
       "valueDateTime": "2020-07-06T09:00:00-00:00"
     }
   ],  

@@ -95,13 +95,13 @@
     </parameter> 
     <parameter> 
         <extension url="http://hl7.org/fhir/StructureDefinition/operationdefinition-allowed-type">
-          <valueCode value="Practitioner"/>
+          <valueUri value="Practitioner"/>
         </extension>
         <extension url="http://hl7.org/fhir/StructureDefinition/operationdefinition-allowed-type">
-          <valueCode value="PractitionerRole"/>
+          <valueUri value="PractitionerRole"/>
         </extension>
         <extension url="http://hl7.org/fhir/StructureDefinition/operationdefinition-allowed-type">
-          <valueCode value="Organization"/>
+          <valueUri value="Organization"/>
         </extension>
         <name value="reporterResource"/> 
         <use value="in"/> 

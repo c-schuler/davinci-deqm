@@ -48,11 +48,11 @@
         {
             "id": "ext",
             "uri": "http://hl7.org/fhir/extensions/ImplementationGuide/hl7.fhir.uv.extensions",
-            "version": "5.2.0",
+            "version": "dev",
             "packageId": "hl7.fhir.uv.extensions.r4"
         },
         {
-            "version": "1.0.0",
+            "version": "dev",
             "id": "cqm",
             "packageId": "hl7.fhir.uv.cqm",
             "uri": "http://hl7.org/fhir/uv/cqm/ImplementationGuide/hl7.fhir.uv.cqm"
@@ -75,7 +75,7 @@
             },
             {
                 "code": "path-expansion-params",
-                "value": "../input/exp-params.json"
+                "value": "../input/resources/Parameters-manifest.json"
             },
             {
                 "code": "logging",
@@ -91,23 +91,7 @@
             },
             {
                 "code": "path-resource",
-                "value": "input/capabilities"
-            },
-            {
-                "code": "path-resource",
                 "value": "input/examples"
-            },
-            {
-                "code": "path-resource",
-                "value": "input/extensions"
-            },
-            {
-                "code": "path-resource",
-                "value": "input/models"
-            },
-            {
-                "code": "path-resource",
-                "value": "input/operations"
             },
             {
                 "code": "path-resource",
@@ -120,10 +104,6 @@
             {
                 "code": "path-resource",
                 "value": "input/vocabulary"
-            },
-            {
-                "code": "path-resource",
-                "value": "input/maps"
             },
             {
                 "code": "path-resource",
@@ -142,8 +122,8 @@
                 "value": "input-cache/txcache"
             },
             {
-                "code": "path-liquid",
-                "value": "input/liquid"
+                "code": "path-liquid-ig",
+                "value": "templates/liquid"
             },
             {
                 "code": "path-temp",
@@ -211,7 +191,11 @@
             },
             {
                 "code": "pin-canonicals",
-                "value": "pin-multiples"
+                "value": "pin-all"
+            },
+            {
+                "code": "pin-manifest",
+                "value": "manifest"
             }
         ],
         "resource": [
@@ -376,6 +360,14 @@
                 "description": "Ad Hoc Operation Input Example"
             },
             {
+                "exampleBoolean": false,
+                "name": "Input Expansion Parameters",
+                "description": "The input expansion parameters resource for this implementation guide, specifying SNOMED Edition and version. This resource will be contained within the published implementation guide with all pinned references.",
+                "reference": {
+                    "reference": "Parameters/manifest"
+                }
+            },
+            {
                 "exampleBoolean": true,
                 "name": "Col Collect Obs",
                 "reference": {
@@ -470,14 +462,6 @@
                     "reference": "Bundle/multiple-summ-report"
                 },
                 "description": "DEQM Multiple Summ Report example"
-            },
-            {
-                "exampleBoolean": true,
-                "name": "Location Aware example",
-                "reference": {
-                    "reference": "Bundle/Location-Aware-example"
-                },
-                "description": "Bundle with location aware information"
             },
             {
                 "exampleBoolean": true,

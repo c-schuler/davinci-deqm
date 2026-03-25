@@ -26,6 +26,17 @@
                 {
                     "url": "http://hl7.org/fhir/5.0/StructureDefinition/extension-MeasureReport.group.linkId",
                     "valueString": "group-1"
+                },
+                {
+                    "url": "http://hl7.org/fhir/uv/deqm/StructureDefinition/deqm-measureScoring",
+                    "valueCodeableConcept": {
+                        "coding": [
+                        {
+                            "system": "http://terminology.hl7.org/CodeSystem/measure-scoring",
+                            "code": "ratio"
+                        }
+                        ]
+                    }
                 }
             ],
             "population": [
@@ -586,18 +597,16 @@
                                 },
                                 {
                                     "url": "value",
-                                    "_valueBoolean": {
-                                        "extension": [
-                                            {
-                                                "url": "http://hl7.org/fhir/StructureDefinition/cqf-isEmptyList",
-                                                "valueBoolean": true
-                                            },
-                                            {
-                                                "url": "http://hl7.org/fhir/StructureDefinition/cqf-cqlType",
-                                                "valueString": "List<System.Any>"
-                                            }
-                                        ]
-                                    }
+                                    "extension": [
+                                        {
+                                            "url": "http://hl7.org/fhir/StructureDefinition/cqf-isEmptyList",
+                                            "valueBoolean": true
+                                        },
+                                        {
+                                            "url": "http://hl7.org/fhir/StructureDefinition/cqf-cqlType",
+                                            "valueString": "List<System.Any>"
+                                        }
+                                    ]
                                 }
                             ]
                         },
@@ -626,17 +635,17 @@
                                 },
                                 {
                                     "url": "value",
-                                        "extension": [
-                                            {
-                                                "url": "http://hl7.org/fhir/StructureDefinition/data-absent-reason",
-                                                "valueCode": "unknown"
-                                            },
-                                            {
-                                                "url": "http://hl7.org/fhir/StructureDefinition/cqf-cqlType",
-                                                "valueString": "System.Any"
-                                            }
-                                        ]
-                                    }
+                                    "extension": [
+                                        {
+                                            "url": "http://hl7.org/fhir/StructureDefinition/data-absent-reason",
+                                            "valueCode": "unknown"
+                                        },
+                                        {
+                                            "url": "http://hl7.org/fhir/StructureDefinition/cqf-cqlType",
+                                            "valueString": "System.Any"
+                                        }
+                                    ]
+                                }
                             ]
                         },
                         {
@@ -826,7 +835,9 @@
             ],
             "measureScore": {
                 "value": 0.1,
-                "unit": "d"
+                "unit": "d",
+                "system": "http://unitsofmeasure.org",
+                "code": "d"
             }
         }
     ]

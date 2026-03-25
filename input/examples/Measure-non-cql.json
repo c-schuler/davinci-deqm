@@ -9,7 +9,7 @@
 		}
 	],
 	"version": "1.0.1",
-	"name": "FHIRPath-example",
+	"name": "FHIRPathExample",
 	"title": "Example of a Measure using FHIRPath",
 	"status": "draft",
 	"experimental": true,
@@ -70,9 +70,6 @@
 				"url": "https://web.archive.org/web/20200501215043/https://www.cdc.gov/nhsn/pdfs/covid19/covid19-test-csv-import.csv"
 			}
 		}
-	],
-	"library": [
-		"http://example.org/fhir/Library/FHIRPath-example"
 	],
 	"group": [
 		{

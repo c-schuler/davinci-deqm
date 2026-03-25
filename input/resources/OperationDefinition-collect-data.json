@@ -86,22 +86,22 @@
             "extension": [
                 {
                     "url": "http://hl7.org/fhir/StructureDefinition/operationdefinition-allowed-type",
-                    "valueCode": "Practitioner"
+                    "valueUri": "Practitioner"
                 },
                 {
                     "url": "http://hl7.org/fhir/StructureDefinition/operationdefinition-allowed-type",
-                    "valueCode": "PractitionerRole"
+                    "valueUri": "PractitionerRole"
                 },
                 {
                     "url": "http://hl7.org/fhir/StructureDefinition/operationdefinition-allowed-type",
-                    "valueCode": "Organization"
+                    "valueUri": "Organization"
                 }
             ],
             "name": "reporterResource",
             "use": "in",
             "min": 0,
             "max": "1",
-            "documentation": "The provider for which the data-of-interest will be collected, provided as a Practitioner, PractitionerRole, or Organization resource. This is intended to support the use case in which the organization information is not on the server performing the evaluation, for example an [ad-hoc group of practitioners](clinicalreasoning-quality-reporting.html#ad-hoc-organizations) that are part of a provider group. This parameter is reflected in the reporter element of the resulting MeasureReport(s). This parameter cannot be used with the reporter parameter.",
+            "documentation": "The provider for which the data-of-interest will be collected, provided as a Practitioner, PractitionerRole, or Organization resource. This is intended to support the use case in which the organization information is not on the server performing the evaluation, for example an [ad-hoc group of practitioners](guidance.html#ad-hoc-organizations-for-deqm-operations) that are part of a provider group. This parameter is reflected in the reporter element of the resulting MeasureReport(s). This parameter cannot be used with the reporter parameter.",
             "type": "DomainResource"
         },
         {
